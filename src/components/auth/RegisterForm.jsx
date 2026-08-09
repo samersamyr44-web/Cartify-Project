@@ -2,7 +2,7 @@ import { useState } from "react";
 
 import { registerUser } from "../../services/authService";
 
-import Button from "../UI/Button";
+import Button from "../ui/Button";
 
 const RegisterForm = () => {
   const [formData, setFormData] = useState({

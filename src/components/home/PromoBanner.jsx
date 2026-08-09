@@ -6,7 +6,7 @@ import { Autoplay, Pagination } from "swiper/modules";
 
 import { getProducts } from "../../services/productService";
 
-import Loader from "../../components/UI/Loader";
+import Loader from "../../components/ui/Loader";
 
 import "swiper/css";
 import "swiper/css/pagination";

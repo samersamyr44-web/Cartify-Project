@@ -2,7 +2,7 @@ import { useState } from "react";
 
 import useAuth from "../../hooks/useAuth";
 
-import Button from "../UI/Button";
+import Button from "../ui/Button";
 
 const LoginForm = () => {
   const [formData, setFormData] = useState({

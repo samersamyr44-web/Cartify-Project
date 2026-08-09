@@ -2,7 +2,7 @@ import { FiLogOut, FiUser } from "react-icons/fi";
 
 import useAuth from "../hooks/useAuth";
 
-import Button from "../components/UI/Button";
+import Button from "../components/ui/Button";
 
 const Profile = () => {
   const { user, logout } = useAuth();

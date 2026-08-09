@@ -3,7 +3,7 @@ import { NavLink } from "react-router-dom";
 
 import { getProducts } from "../../services/productService";
 import ProductCard from "../../components/product/ProductCard";
-import Loader from "../../components/UI/Loader";
+import Loader from "../../components/ui/Loader";
 
 const FeaturedProducts = () => {
   const [products, setProducts] = useState([]);
