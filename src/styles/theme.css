@@ -1,0 +1,124 @@
+:root {
+  --color-primary: #00df9a;
+
+  --color-background: #ffffff;
+  --color-text: #111827;
+  --color-card: #ffffff;
+  --color-border: #e5e7eb;
+
+  --color-button: black;
+  --color-button-text: #00df9a;
+  --color-button-hover: rgba(0, 0, 0, 0.7);
+
+  --color-overlay: rgba(0, 0, 0, 0.5);
+
+  --color-primary-text: #000000;
+  --color-arrow: #000000;
+}
+
+.dark {
+  --color-primary: #00df9a;
+
+  --color-background: #111827;
+  --color-text: #ffffff;
+  --color-card: #1f2937;
+  --color-border: #374151;
+
+  --color-button: #00df9a;
+  --color-button-text: #000000;
+  --color-button-hover: #00b87c;
+
+  --color-overlay: rgba(0, 0, 0, 0.7);
+
+  --color-primary-text: #000000;
+  --color-arrow: #00df9a;
+}
+
+/* ========================= */
+/*       Swiper Theme        */
+/* ========================= */
+
+/* Pagination Position */
+
+.swiper-pagination {
+  bottom: 0px !important;
+}
+
+/* Light Mode */
+
+.swiper-button-next,
+.swiper-button-prev {
+  color: var(--color-text) !important;
+}
+
+.swiper-pagination-bullet {
+  background-color: #9ca3af !important;
+  opacity: 1;
+}
+
+.swiper-pagination-bullet-active {
+  background-color: #111827 !important;
+}
+
+/* Dark Mode */
+
+.dark .swiper-button-next,
+.dark .swiper-button-prev {
+  color: var(--color-primary) !important;
+}
+
+.dark .swiper-pagination-bullet {
+  background-color: #6b7280 !important;
+}
+
+.dark .swiper-pagination-bullet-active {
+  background-color: var(--color-primary) !important;
+}
+
+/* Swiper Arrows Size */
+
+.swiper-button-next,
+.swiper-button-prev {
+  --swiper-navigation-size: 25px;
+}
+
+/* Mobile */
+
+@media (max-width: 768px) {
+  .swiper-button-next,
+  .swiper-button-prev {
+    --swiper-navigation-size: 18px;
+  }
+}
+
+@media (max-width: 480px) {
+  .swiper-button-next,
+  .swiper-button-prev {
+    --swiper-navigation-size: 15px;
+  }
+}
+
+/*       Modal Animation      */
+
+@keyframes modalFadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes modalScaleIn {
+  from {
+    opacity: 0;
+    transform: scale(0.95) translateY(10px);
+  }
+
+  to {
+    opacity: 1;
+    transform: scale(1) translateY(0);
+  }
+}
+
