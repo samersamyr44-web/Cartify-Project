@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const authApi = axios.create({
-  baseURL: "http://localhost:5000/api",
+  baseURL: "https://cartify-backend-fawn.vercel.app/api",
 });
 
 export default authApi;
