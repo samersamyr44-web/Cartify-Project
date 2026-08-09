@@ -4,7 +4,7 @@ import { useParams } from "react-router-dom";
 import { getProducts, getProductByCategory } from "../services/productService";
 
 import ProductCard from "../components/product/ProductCard";
-import Loader from "../components/UI/Loader";
+import Loader from "../components/ui/Loader";
 
 const Products = () => {
   const [products, setProducts] = useState([]);

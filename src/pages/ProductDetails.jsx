@@ -12,7 +12,7 @@ import { getProductById } from "../services/productService";
 
 import Button from "../components/ui/Button";
 import Ratings from "../components/ui/Ratings";
-import Loader from "../components/UI/Loader";
+import Loader from "../components/ui/Loader";
 
 import useCart from "../hooks/useCart";
 import useWishlist from "../hooks/useWishlist";

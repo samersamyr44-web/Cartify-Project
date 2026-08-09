@@ -4,7 +4,7 @@ import { getCategories } from "../services/categoryService";
 import { getProducts } from "../services/productService";
 
 import CategoryCard from "../components/category/CategoryCard";
-import Loader from "../components/UI/Loader";
+import Loader from "../components/ui/Loader";
 
 const Categories = () => {
   const [categories, setCategories] = useState([]);
